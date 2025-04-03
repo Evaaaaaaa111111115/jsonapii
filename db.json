@@ -1,0 +1,52 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "title": "The Legend of Zelda: Breath of the Wild",
+            "genre": "Action-adventure",
+            "platforms": ["Nintendo Switch", "Wii U"],
+            "developer": "Nintendo",
+            "release_year": 2017,
+            "rating": "E10+"
+        },
+        {
+            "id": 2,
+            "title": "Elden Ring",
+            "genre": "Action RPG",
+            "platforms": ["PC", "PlayStation 5", "PlayStation 4", "Xbox Series X/S", "Xbox One"],
+            "developer": "FromSoftware",
+            "release_year": 2022,
+            "rating": "M"
+        }
+    ],
+    "platforms": [
+        {
+            "id": 1,
+            "name": "Nintendo Switch",
+            "manufacturer": "Nintendo",
+            "release_year": 2017
+        },
+        {
+            "id": 2,
+            "name": "PlayStation 5",
+            "manufacturer": "Sony",
+            "release_year": 2020
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "game_id": 1,
+            "reviewer": "IGN",
+            "score": 10,
+            "comment": "A masterpiece of open-world design."
+        },
+        {
+            "id": 2,
+            "game_id": 2,
+            "reviewer": "GameSpot",
+            "score": 9,
+            "comment": "A deep and rewarding RPG experience."
+        }
+    ]
+}
