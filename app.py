@@ -1,9 +1,17 @@
+# bronnen:https://www.w3schools.com/js/js_json_intro.asp
+# https://www.w3schools.com/html/
+# https://www.w3schools.com/css/
+# https://github.com/topics/flask
+# chat gpt
+# https://realpython.com/tutorials/flask/
+# voor deze opdracht heb ik ook Zinedine geraadpleegd
+# https://www.youtube.com/watch?v=Z1RJmh_OqeA&ab_channel=TraversyMedia
 from flask import Flask, jsonify, render_template
 import json
 
 app = Flask(__name__)
 
-# Laad games slechts 1 keer
+
 with open('db.json', 'r', encoding='utf-8') as f:
     db = json.load(f)
 
