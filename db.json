@@ -1,40 +1,71 @@
 {
-    "sensors": [
+    "games": [
       {
         "id": 1,
-        "type": "temperature",
-        "unit": "°C",
-        "model": "DHT22",
-        "location": 1,
-        "accuracy": "±0.5°C"
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "genre": "Action-adventure",
+        "platforms": "Nintendo Switch"
       },
       {
         "id": 2,
-        "type": "humidity",
-        "unit": "%",
-        "model": "DHT22",
-        "location": 1,
-        "accuracy": "±2%"
-      }
-    ],
-    "locations": [
+        "title": "God of War Ragnarok",
+        "genre": "Action",
+        "platforms": "PlayStation 5"
+      },
       {
-        "id": 1,
-        "name": "Woonkamer",
-        "building": "Hoofdgebouw",
-        "floor": 1,
-        "coordinates": {
-          "lat": 52.370216,
-          "lng": 4.895168
-        }
-      }
-    ],
-    "measurements": [
+        "id": 3,
+        "title": "Hades",
+        "genre": "Roguelike",
+        "platforms": "PC"
+      },
       {
-        "id": 1,
-        "sensor_id": 1,
-        "value": 21.5,
-        "timestamp": "2025-03-26T10:30:00Z"
+        "id": 4,
+        "title": "Hollow Knight",
+        "genre": "Metroidvania",
+        "platforms": "PC"
+      },
+      {
+        "id": 5,
+        "title": "Animal Crossing: New Horizons",
+        "genre": "Simulation",
+        "platforms": "Nintendo Switch"
+      },
+      {
+        "id": 6,
+        "title": "The Witcher 3: Wild Hunt",
+        "genre": "RPG",
+        "platforms": "PlayStation 4"
+      },
+      {
+        "id": 7,
+        "title": "Super Mario Odyssey",
+        "genre": "Platformer",
+        "platforms": "Nintendo Switch"
+      },
+      {
+        "id": 8,
+        "title": "Red Dead Redemption 2",
+        "genre": "Action-adventure",
+        "platforms": "Xbox One"
+      },
+      {
+        "id": 9,
+        "title": "Cyberpunk 2077",
+        "genre": "RPG",
+        "platforms": "PC"
+      },
+      {
+        "id": 10,
+        "title": "Stardew Valley",
+        "genre": "Simulation",
+        "platforms": "PC"
+      },
+      {
+        "id": 11,
+        "title": "Sekiro: Shadows Die Twice",
+        "genre": "Action",
+        "platforms": "PlayStation 4"
       }
     ]
   }
+  
