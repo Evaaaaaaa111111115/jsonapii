@@ -6,6 +6,9 @@
 # https://realpython.com/tutorials/flask/
 # voor deze opdracht heb ik ook Zinedine geraadpleegd
 # https://www.youtube.com/watch?v=Z1RJmh_OqeA&ab_channel=TraversyMedia
+# debugging met print statements : chat gpt
+# doorsturen naar github gef fouten: chatgpt
+
 from flask import Flask, jsonify, render_template
 import requests
 import json
