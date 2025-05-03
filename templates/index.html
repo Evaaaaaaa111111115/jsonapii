@@ -44,7 +44,9 @@
     <div class="game">
         <h2>{{ game.title }}</h2>
         <p><strong>Genre:</strong> {{ game.genre }}</p>
-        <p><strong>Platform:</strong> {{ game.platforms }}</p>
+        <p><strong>Platform:</strong> {{ game.platform }}</p>
+
+        {% comment %} <p><strong>Platform:</strong> {{ game.platforms }}</p> {% endcomment %}
         <p class="score">⭐ Score: {{ game.score }}</p>
         <p class="release-date">📅 Releasedatum: {{ game.release_date }}</p>
     </div>

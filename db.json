@@ -1,10 +1,11 @@
+
 {
     "games": [
       {
         "id": 1,
         "title": "The Legend of Zelda: Breath of the Wild",
         "genre": "Action-adventure",
-        "platforms": "Nintendo Switch",
+        "platform_id": 1,
         "score": 9.8,
         "release_date": "2017-03-03"
       },
@@ -12,7 +13,7 @@
         "id": 2,
         "title": "God of War Ragnarok",
         "genre": "Action",
-        "platforms": "PlayStation 5",
+        "platform_id": 2,
         "score": 9.6,
         "release_date": "2022-11-09"
       },
@@ -20,7 +21,7 @@
         "id": 3,
         "title": "Hades",
         "genre": "Roguelike",
-        "platforms": "PC",
+        "platform_id": 3,
         "score": 9.0,
         "release_date": "2020-09-17"
       },
@@ -28,7 +29,7 @@
         "id": 4,
         "title": "Hollow Knight",
         "genre": "Metroidvania",
-        "platforms": "PC",
+        "platform_id": 3,
         "score": 9.3,
         "release_date": "2017-02-24"
       },
@@ -36,7 +37,7 @@
         "id": 5,
         "title": "Animal Crossing: New Horizons",
         "genre": "Simulation",
-        "platforms": "Nintendo Switch",
+        "platform_id": 1,
         "score": 8.9,
         "release_date": "2020-03-20"
       },
@@ -44,7 +45,7 @@
         "id": 6,
         "title": "The Witcher 3: Wild Hunt",
         "genre": "RPG",
-        "platforms": "PlayStation 4",
+        "platform_id": 2,
         "score": 9.7,
         "release_date": "2015-05-19"
       },
@@ -52,7 +53,7 @@
         "id": 7,
         "title": "Super Mario Odyssey",
         "genre": "Platformer",
-        "platforms": "Nintendo Switch",
+        "platform_id": 2,
         "score": 9.7,
         "release_date": "2017-10-27"
       },
@@ -60,7 +61,7 @@
         "id": 8,
         "title": "Red Dead Redemption 2",
         "genre": "Action-adventure",
-        "platforms": "Xbox One",
+        "platform_id": 4,
         "score": 9.8,
         "release_date": "2018-10-26"
       },
@@ -68,7 +69,7 @@
         "id": 9,
         "title": "Cyberpunk 2077",
         "genre": "RPG",
-        "platforms": "PC",
+        "platform_id": 3,
         "score": 8.5,
         "release_date": "2020-12-10"
       },
@@ -76,7 +77,7 @@
         "id": 10,
         "title": "Stardew Valley",
         "genre": "Simulation",
-        "platforms": "PC",
+        "platform_id": 3,
         "score": 9.1,
         "release_date": "2016-02-26"
       },
@@ -84,11 +85,56 @@
         "id": 11,
         "title": "Sekiro: Shadows Die Twice",
         "genre": "Action",
-        "platforms": "PlayStation 4",
+        "platform_id": 2,
         "score": 9.4,
         "release_date": "2019-03-22"
       }
+    ],
+
+
+
+    "platforms": [
+      {
+        "id": 1,
+        "name": "Nintendo Switch",
+        "release_date": "2017-03-03",
+        "games": [
+          1,
+          5,
+          7
+        ]
+      },
+      {
+        "id": 2,
+        "name": "PlayStation 5",
+        "release_date": "2020-11-12",
+        "games": [
+          2,
+          6,
+          11
+        ]
+      },
+      {
+        "id": 3,
+        "name": "PC",
+        "release_date": "2001-10-25",
+        "games": [
+          3,
+          4,
+          9,
+          10
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Xbox One",
+        "release_date": "2013-11-22",
+        "games": [
+          8
+        ]
+      }
     ]
+      
   }
 
   
