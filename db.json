@@ -7,7 +7,7 @@
         "genre": "Action-adventure",
         "platform_id": 1,
         "score": 9.8,
-        "release_date": "2017-03-03"
+        "release_date": "03-03-2017"
       },
       {
         "id": 2,
@@ -15,7 +15,7 @@
         "genre": "Action",
         "platform_id": 2,
         "score": 9.6,
-        "release_date": "2022-11-09"
+        "release_date": "09-11-2022"
       },
       {
         "id": 3,
@@ -23,7 +23,7 @@
         "genre": "Roguelike",
         "platform_id": 3,
         "score": 9.0,
-        "release_date": "2020-09-17"
+        "release_date": "17-09-2020"
       },
       {
         "id": 4,
@@ -31,7 +31,7 @@
         "genre": "Metroidvania",
         "platform_id": 3,
         "score": 9.3,
-        "release_date": "2017-02-24"
+        "release_date": "24-02-2017"
       },
       {
         "id": 5,
@@ -39,7 +39,7 @@
         "genre": "Simulation",
         "platform_id": 1,
         "score": 8.9,
-        "release_date": "2020-03-20"
+        "release_date": "20-03-20"
       },
       {
         "id": 6,
@@ -47,7 +47,7 @@
         "genre": "RPG",
         "platform_id": 2,
         "score": 9.7,
-        "release_date": "2015-05-19"
+        "release_date": "19-05-2015"
       },
       {
         "id": 7,
@@ -55,7 +55,7 @@
         "genre": "Platformer",
         "platform_id": 2,
         "score": 9.7,
-        "release_date": "2017-10-27"
+        "release_date": "27-10-2017"
       },
       {
         "id": 8,
@@ -63,7 +63,7 @@
         "genre": "Action-adventure",
         "platform_id": 4,
         "score": 9.8,
-        "release_date": "2018-10-26"
+        "release_date": "26-10-2018"
       },
       {
         "id": 9,
@@ -71,7 +71,7 @@
         "genre": "RPG",
         "platform_id": 3,
         "score": 8.5,
-        "release_date": "2020-12-10"
+        "release_date": "10-12-2020"
       },
       {
         "id": 10,
@@ -79,7 +79,7 @@
         "genre": "Simulation",
         "platform_id": 3,
         "score": 9.1,
-        "release_date": "2016-02-26"
+        "release_date": "26-02-2016"
       },
       {
         "id": 11,
@@ -87,7 +87,7 @@
         "genre": "Action",
         "platform_id": 2,
         "score": 9.4,
-        "release_date": "2019-03-22"
+        "release_date": "22-03-2019"
       }
     ],
 
