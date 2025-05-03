@@ -26,11 +26,11 @@
 
     {% for game in games %}
         <div class="game">
-            <h2><strong>Titel:</strong>{{ game.titel }}</h2>
+            <h2><strong>Titel:</strong>{{ game.title }}</h2>
             <p><strong>Genre:</strong> {{ game.genre }}</p>
             <p><strong>Platform:</strong> {{ platform_dict[game.platform_id] }}</p>
             <p><strong>⭐ Score:</strong> {{ game.score }}</p>
-            <p><strong>📅 Releasedatum:</strong> {{ game.releasedatum }}</p>
+            <p><strong>📅 Releasedatum:</strong> {{ game.release_date }}</p>
         </div>
     {% endfor %}
 
