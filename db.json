@@ -3,7 +3,7 @@
     "games": [
       {
         "id": 1,
-        "title": "The Legend of Zelda: Breath of the Wild",
+        "title": "The Legend of Zelda: Breath of the Wild🧙‍♂️",
         "genre": "Action-adventure",
         "platform_id": 1,
         "score": 9.8,
@@ -11,7 +11,7 @@
       },
       {
         "id": 2,
-        "title": "God of War Ragnarok",
+        "title": "God of War Ragnarok🌊",
         "genre": "Action",
         "platform_id": 2,
         "score": 9.6,
@@ -19,7 +19,7 @@
       },
       {
         "id": 3,
-        "title": "Hades",
+        "title": "Hades👹",
         "genre": "Roguelike",
         "platform_id": 3,
         "score": 9.0,
@@ -27,7 +27,7 @@
       },
       {
         "id": 4,
-        "title": "Hollow Knight",
+        "title": "Hollow Knight⚔️",
         "genre": "Metroidvania",
         "platform_id": 3,
         "score": 9.3,
@@ -35,7 +35,7 @@
       },
       {
         "id": 5,
-        "title": "Animal Crossing: New Horizons",
+        "title": "Animal Crossing: New Horizons🌾",
         "genre": "Simulation",
         "platform_id": 1,
         "score": 8.9,
@@ -43,7 +43,7 @@
       },
       {
         "id": 6,
-        "title": "The Witcher 3: Wild Hunt",
+        "title": "The Witcher 3: Wild Hunt🪄",
         "genre": "RPG",
         "platform_id": 2,
         "score": 9.7,
@@ -51,7 +51,7 @@
       },
       {
         "id": 7,
-        "title": "Super Mario Odyssey",
+        "title": "Super Mario Odyssey🥚",
         "genre": "Platformer",
         "platform_id": 2,
         "score": 9.7,
@@ -59,7 +59,7 @@
       },
       {
         "id": 8,
-        "title": "Red Dead Redemption 2",
+        "title": "Red Dead Redemption 2🐎",
         "genre": "Action-adventure",
         "platform_id": 4,
         "score": 9.8,
@@ -67,7 +67,7 @@
       },
       {
         "id": 9,
-        "title": "Cyberpunk 2077",
+        "title": "Cyberpunk 2077🤖",
         "genre": "RPG",
         "platform_id": 3,
         "score": 8.5,
@@ -75,7 +75,7 @@
       },
       {
         "id": 10,
-        "title": "Stardew Valley",
+        "title": "Stardew Valley🍂",
         "genre": "Simulation",
         "platform_id": 3,
         "score": 9.1,
@@ -83,7 +83,7 @@
       },
       {
         "id": 11,
-        "title": "Sekiro: Shadows Die Twice",
+        "title": "Sekiro: Shadows Die Twice🕳️",
         "genre": "Action",
         "platform_id": 2,
         "score": 9.4,
