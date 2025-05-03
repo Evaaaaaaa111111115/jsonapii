@@ -96,7 +96,7 @@
     "platforms": [
       {
         "id": 1,
-        "name": "Nintendo Switch",
+        "naam": "Nintendo Switch",
         "release_date": "2017-03-03",
         "games": [
           1,
@@ -106,7 +106,7 @@
       },
       {
         "id": 2,
-        "name": "PlayStation 5",
+        "naam": "PlayStation 5",
         "release_date": "2020-11-12",
         "games": [
           2,
@@ -116,7 +116,7 @@
       },
       {
         "id": 3,
-        "name": "PC",
+        "naam": "PC",
         "release_date": "2001-10-25",
         "games": [
           3,
@@ -127,7 +127,7 @@
       },
       {
         "id": 4,
-        "name": "Xbox One",
+        "naam": "Xbox One",
         "release_date": "2013-11-22",
         "games": [
           8

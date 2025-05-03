@@ -1,39 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <title>Game Bibliotheek</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            padding: 2rem;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
+            background-color: #f2f2f2;
+            padding: 20px;
         }
         .game {
-            background: white;
-            border-radius: 10px;
-            padding: 1rem;
-            margin: 1rem auto;
-            max-width: 600px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .game h2 {
-            margin-top: 0;
-        }
-        .game p {
-            margin: 0.3rem 0;
-        }
-        .score {
-            font-weight: bold;
-            color: green;
-        }
-        .release-date {
-            font-style: italic;
-            color: #666;
+        h1, h2 {
+            color: #333;
         }
     </style>
 </head>
@@ -41,15 +25,20 @@
     <h1>🎮 Game Bibliotheek</h1>
 
     {% for game in games %}
-    <div class="game">
-        <h2>{{ game.title }}</h2>
-        <p><strong>Genre:</strong> {{ game.genre }}</p>
-        <p><strong>Platform:</strong> {{ game.platform }}</p>
-
-        {% comment %} <p><strong>Platform:</strong> {{ game.platforms }}</p> {% endcomment %}
-        <p class="score">⭐ Score: {{ game.score }}</p>
-        <p class="release-date">📅 Releasedatum: {{ game.release_date }}</p>
-    </div>
+        <div class="game">
+            <h2>{{ game.titel }}</h2>
+            <p><strong>Genre:</strong> {{ game.genre }}</p>
+            <p><strong>Platform:</strong> {{ platform_dict[game.platform_id] }}</p>
+            <p><strong>⭐ Score:</strong> {{ game.score }}</p>
+            <p><strong>📅 Releasedatum:</strong> {{ game.releasedatum }}</p>
+        </div>
     {% endfor %}
+
+    <h2>Beschikbare Platforms</h2>
+    <ul>
+        {% for platform in platforms %}
+            <li>{{ platform.naam }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
